@@ -1,0 +1,20 @@
+* {
+    font-family: sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: auto;
+    border: 1px black;
+    background-color: grey;
+}
+
+li{
+    display: inline;
+    padding: 25px;
+    float: right;
+}
+
+li:hover{
+
+}
