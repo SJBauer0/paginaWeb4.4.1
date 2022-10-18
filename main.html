@@ -1,18 +1,50 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="horario.css">
+<link rel="stylesheet" href="maincss.css">
+<link rel="stylesheet" href="iconcss.css">
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'> 
+<script src="index.js"></script>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema Iluminacion</title>
 </head>
 <body>
-    <ul>
-        <li><a href="horario.html"></a> Horario </li>
-        <li>Cuenta</li>
-        <li>Ajustes</li>
-        <li>Ayuda</li>
+
+    <ul class="menu">
+        <li class="menuli"><a class="menulia" href="horario.html">Horario</a></li>
+        <li class="menuli"><a class="menulia" href="#news">Cuenta</a></li>
+        <li class="menuli"><a class="menulia" href="#contact">Ajustes</a></li>
+        <li class="menuli"><a class="menulia" href="#about">Ayuda</a></li>
+        <li class="menulititle" style= "float: left"><a class="menulia" href="main.html">Sistema De Iluminacion</a></li>
+        <div class="dropdown menubar">
+          <li class="menubar menuli"><button class="bi bi-list menubutton dropbtn" style="font-size: 40px; float: right; padding-right: 15px;"></button></li>
+          <div class="dropdown-content">
+            <a class="menulia" href="horario.html">Horario</a></li>
+            <a class="menulia" href="#news">Cuenta</a></li>
+            <a class="menulia" href="#contact">Ajustes</a></li>
+            <a class="menulia" href="#about">Ayuda</a></li>
+          </div>
+        </div>
     </ul>
-</body>
+
+    <div style="margin-top: relative; align-items: center;">
+        <div class="backicon"><i class='bi bi-three-dots threedots' style="font-size:30px;"></i><li><button onclick="buttonColor()" class="icon"><div id="circle" class="circle"></div><class="dot"></class=><img class="iconimg" src="icons/cama-matrimonial.png"><br>Hab 1</div></li>
+        <div class="backicon"><i class='bi bi-three-dots threedots' style="font-size:30px;"></i><li><button onclick="buttonColor2()" class="icon"><div id="circle2" class="circle2"></div><class="dot"></class=><img class="iconimg" src="icons/cama-matrimonial.png"><br>Hab 2</div></li>
+        <div class="backicon"><i class='bi bi-three-dots threedots' style="font-size:30px;"></i><li><button onclick="buttonColor3()" class="icon"><div id="circle3" class="circle3"></div><class="dot"></class=><img class="iconimg" src="icons/cama-matrimonial.png"><br>Hab 3</div></li>
+        <div class="backicon"><i class='bi bi-three-dots threedots' style="font-size:30px;"></i><li><button onclick="buttonColor4()" class="icon"><div id="circle4" class="circle4"></div><class="dot"></class=><img class="iconimg" src="icons/cama-matrimonial.png"><br>Hab 4</div></li>
+        <div class="backicon"><i class='bi bi-three-dots threedots' style="font-size:30px;"></i><li><button onclick="buttonColor5()" class="icon"><div id="circle5" class="circle5"></div><class="dot"></class=><img class="iconimg" src="icons/sala-de-estar.png"><br>Sala</div></li>
+        <div class="backicon"><i class='bi bi-three-dots threedots' style="font-size:30px;"></i><li><button onclick="buttonColor6()" class="icon"><div id="circle6" class="circle6"></div><class="dot"></class=><img class="iconimg" src="icons/mesa-de-comedor.png"><br>Comedor</div></li>
+        <div class="backicon"><i class='bi bi-three-dots threedots' style="font-size:30px;"></i><li><button onclick="buttonColor7()" class="icon"><div id="circle7" class="circle7"></div><class="dot"></class=><img class="iconimg" src="icons/table.png"><br>Roof G.</div></li>
+        <div class="backicon"><i class='bi bi-three-dots threedots' style="font-size:30px;"></i><li><button onclick="buttonColor8()" class="icon"><div id="circle8" class="circle8"></div><class="dot"></class=><img class="iconimg" src="icons/puzzle.png"><br>Game Room</div></li>
+        <div class="backicon"><i class='bi bi-three-dots threedots' style="font-size:30px;"></i><li><button onclick="buttonColor9()" class="icon"><div id="circle9" class="circle9"></div><class="dot"></class=><img class="iconimg" src="icons/garage.png"><br>Garage</div></li>
+        <div class="backicon"><i class='bi bi-three-dots threedots' style="font-size:30px;"></i><li><button onclick="buttonColor10()" class="icon"><div id="circle10" class="circle10"></div><class="dot"></class=><img class="iconimg" src="icons/piscina.png"><br>Alberca</div></li>
+        <div class="backicon"><i class='bi bi-three-dots threedots' style="font-size:30px;"></i><li><button onclick="buttonColor11()" class="icon"><div id="circle11" class="circle11"></div><class="dot"></class=><img class="iconimg" src="icons/red.png"><br>Tenis</div></li>
+        <div class="fbackicon"><li><div class="ficon"><div class="pluss iconn"></div></div></li></div>
+      </lu>
+    </div>
+    
+  </body>
 
