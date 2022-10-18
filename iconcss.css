@@ -1,0 +1,194 @@
+  .threedots{
+    position:absolute;
+    left:33px;
+    top: 100px;
+  }
+  
+  .backicon{
+    list-style-type: none;
+    margin: 9%;
+    position: relative;
+    float: left;
+    list-style-type: none;
+    width: 95px;
+    height: 125px;
+    background: #BBBBBB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+  }
+  
+  .fbackicon{
+    list-style-type: none;
+    margin: 9%;
+    position: relative;
+    float: left;
+    list-style-type: none;
+    width: 95px;
+    height: 125px;
+  }
+  
+  .ficon{
+    align-items: right;
+    text-align: center;
+    width: 95px;
+    height: 95px;
+  }
+  
+  .icon{
+    align-items: right;
+    text-align: center;
+    width: 95px;
+    height: 95px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+  }
+  
+  .dot {
+    margin-top: 5px;
+    margin-left: 70px;
+    margin-right: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+  }
+  
+  .iconimg{
+    position: left;
+    padding-left: 2px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .pluss.iconn {
+    color: #000;
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 45px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+  }
+  
+  .pluss.iconn:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 7px;
+    background-color: currentColor;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+  }
+  
+  .pluss.iconn:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 7px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    background-color: currentColor;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+            
+  }
+  
+  #circle{
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background: white;
+    box-shadow: inset 0px 4px 2px rgba(0, 0, 0, 0.25);
+    filter: blur(0.5px);
+  }
+  
+  #circle2{
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background: white;
+    box-shadow: inset 0px 4px 2px rgba(0, 0, 0, 0.25);
+    filter: blur(0.5px);
+  }
+  
+  #circle3{
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background: white;
+    box-shadow: inset 0px 4px 2px rgba(0, 0, 0, 0.25);
+    filter: blur(0.5px);
+  }
+  
+  #circle4{
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background: white;
+    box-shadow: inset 0px 4px 2px rgba(0, 0, 0, 0.25);
+    filter: blur(0.5px);
+  }
+  
+  #circle5{
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background: white;
+    box-shadow: inset 0px 4px 2px rgba(0, 0, 0, 0.25);
+    filter: blur(0.5px);
+  }
+  
+  #circle6{
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background: white;
+    box-shadow: inset 0px 4px 2px rgba(0, 0, 0, 0.25);
+    filter: blur(0.5px);
+  }
+  
+  #circle7{
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background: white;
+    box-shadow: inset 0px 4px 2px rgba(0, 0, 0, 0.25);
+    filter: blur(0.5px);
+  }
+  
+  #circle8{
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background: white;
+    box-shadow: inset 0px 4px 2px rgba(0, 0, 0, 0.25);
+    filter: blur(0.5px);
+  }
+  
+  #circle9{
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background: white;
+    box-shadow: inset 0px 4px 2px rgba(0, 0, 0, 0.25);
+    filter: blur(0.5px);
+  }
+  
+  #circle10{
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background: white;
+    box-shadow: inset 0px 4px 2px rgba(0, 0, 0, 0.25);
+    filter: blur(0.5px);
+  }
+  
+  #circle11{
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background: white;
+    box-shadow: inset 0px 4px 2px rgba(0, 0, 0, 0.25);
+    filter: blur(0.5px);
+  }
+  
