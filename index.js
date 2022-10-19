@@ -52,6 +52,6 @@ function buttonColor10() {
 }
 
 function buttonColor11() {
-    document.getElementById("circle10").style.backgroundColor= color[index];
+    document.getElementById("circle11").style.backgroundColor= color[index];
     index = index >= color.length - 1 ? 0 : index + 1;
 }
