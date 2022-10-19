@@ -48,6 +48,12 @@ p{
   display: none;
 }
 
+@media screen and (max-width: 941px) {
+  .menuliahorario{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .menuli{
     display: none;
@@ -57,7 +63,7 @@ p{
     display: contents;
     float: right;
   }
-  
+
 /*DROP DOWN MENU*/
 
 .dropbtn {
